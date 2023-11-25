@@ -1,7 +1,5 @@
 package org.universidad.Variables;
 
-import org.universidad.Main;
-
 public class InferenciaTipos {
     public static void main(String[] args) {
         var nombre = "Jose Angeles";
