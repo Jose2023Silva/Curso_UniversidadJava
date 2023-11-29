@@ -5,6 +5,7 @@ package org.universidad.intro.metodos;
  * @author Jose Angel Silva
  */
 public class Aritmetica {
+    // Se conoce como stack ya que se almacena datos dentro de una clase o metodo
     int a;
     int b;
     

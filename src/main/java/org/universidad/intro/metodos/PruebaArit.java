@@ -6,6 +6,10 @@ package org.universidad.intro.metodos;
  */
 public class PruebaArit {
     public static void main(String[] args) {
+        // Para diferenciar entre heap y stack,
+        // Memoria Stack = memoria Heap - Referencia de objeto
+        // La variable arit1 almacena la referencia y es estack
+        // el new Aritmetica() es el heap y esto se administra de forma dinamica por la JVM
         Aritmetica arit1 = new Aritmetica();
         arit1.a = 45;
         arit1.b = 23;
