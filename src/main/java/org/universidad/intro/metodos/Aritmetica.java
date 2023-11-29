@@ -9,6 +9,23 @@ public class Aritmetica {
     int b;
     
     /**
+     * Constructor cuando se crea un objeto y se inicializan los valores.
+     * cuando se tiene vacio los parametros, el JVM provee uno por defecto sin 
+     * necesidad de declararla.
+     */
+    public Aritmetica(){
+        System.out.println("Se instancio un objeto");
+        this.a = 0;
+        this.b = 0;
+    }
+    
+    public Aritmetica(int a, int b){
+        System.out.println("Se instancion un objeto con parametros");
+        this.a = a;
+        this.b = b;
+    }
+    
+    /**
      * Metodo publica de la clase que no retorna nada, es decir, vacio llamada
      * sumar y no contiene parametros de la funcion.
      */

@@ -16,5 +16,10 @@ public class PruebaArit {
         
         var sumaArgs = arit1.sumaArgs(45, 8, 23);
         System.out.println("sumaArgs = " + sumaArgs);
+        
+        // creando un objeto con un constructor con parametros
+        Aritmetica arit2 = new Aritmetica(56, 120);
+        var resultadoSuma = arit2.sumarConRetorno();
+        System.out.println("resultadoSuma = " + resultadoSuma);
     }
 }
